@@ -1,0 +1,23 @@
+html {
+  font-size: $font-size;
+}
+
+body {
+  font-size: 1rem;
+  font-family: $font-main;
+}
+
+a {
+  color: $color-primary;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $color-accent;
+  }
+}
+
+// h1 {}
+// h2 {}
+// h3 {}
+// section {}
