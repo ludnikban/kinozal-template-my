@@ -96,17 +96,73 @@
         </section>
   
         <section class="film-info">
-          <h1>Иллюзия обмана 2</h1>
+            <h1>Иллюзия обмана 2</h1>
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/47DzVAIzSQI" allowfullscreen></iframe>
+            </div>
+
         </section>
   
         <section class="film-description">
           <h2>Описание фильма</h2>
+          <div class="well">
+            Приключенческий фильм Иллюзия обмана 2 расскажет о событиях, случившихся через долгие три года после финального хеппи-энда первой части. Все виновные наказаны, знаменитые «четыре всадника» утвердились в роли героев, а Дилан Родес отомстил за гибель отца и нашел свою французскую любовь. И все бы хорошо, но у миллиардера-мошенника Артура Тесслера (который сидит в тюрьме за финансовые махинации) есть сын Уолтер, и он настроен очень серьезно...
+            Парень во что бы то ни стало хочет отомстить тем, кто упрятал Артура за решетку. Иллюзионистам придется столкнуться не только со слепой ненавистью, но и с настоящей любовью ребенка к отцу. И в этот раз расправиться с проблемой будет не так легко, ведь им будет противостоять не злодей.
+          </div>
         </section>
+
         <section class="film-comments">
-          <h2>Отзывы о фильмы</h2>
+          <h2>Отзывы о фильме</h2>
+          
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title"><span class="glyphicon glyphicon-user">Таня</span></h3>
+            </div>
+            <div class="panel-body">
+              Несомненно лучший фильм . Который можно пересматривать снова и снова
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title"><span  class="glyphicon glyphicon-user">Guest</span> </h3>
+            </div>
+            <div class="panel-body">
+              Ну второй фильм сильно фантастический, переборщили. 7 из 10 за нестандартный сюжет.
+            </div>
+          </div>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title"><span  class="glyphicon glyphicon-user">Vlad</span> </h3>
+            </div>
+            <div class="panel-body">
+              Занадто багато вигадок. Зі справжніми іллюзіоністами фільм має дуже мало спільного. Чиста вигадка.
+            </div>
+          </div>
         </section>
         <section class="film-send">
           <h2>Оставить комментарий</h2>
+
+
+          <form action="login">
+
+            <div class="form-group">
+              <input class="form-control input-lg" type="text" placeholder="Ваше имя">
+            </div>
+
+            <div class="form-group">
+              <input class="form-control input-lg" type="email" placeholder="Укажите Email">
+            </div>
+
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Напишите свой комментарий здесь..." rows="10"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-lg btn-warning">Отправить</button>
+
+          </form>
+
+
         </section>
         </main>
 
@@ -182,8 +238,69 @@
         <div class="panel-heading">
           <h3 class="panel-title">Новости сайта</h3>
         </div>
+        
         <div class="panel-body">
-          Panel content
+
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="assets/img/75x75.png" alt="news-1">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Мы запустили новый сервис-...</h4>
+              ...
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="assets/img/75x75.png" alt="news-2">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">На сайте добавлен новый функционал</h4>
+              ...
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="assets/img/75x75.png" alt="news-3">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Скорость скачивания...</h4>
+              ...
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="assets/img/75x75.png" alt="news-3">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Оптимизирована производительнос...</h4>
+              ...
+            </div>
+          </div>
+
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="assets/img/75x75.png" alt="news-3">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Количество пользователей...</h4>
+              ...
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -194,37 +311,37 @@
         <div class="top-films-body panel-body">
           <ul class="top-films-list list-group">
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle1<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Марсианин<span class="top-films-badge badge">8.9</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle2<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Иллюзия обмана 2<span class="top-films-badge badge">8.8</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle3<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Из машины<span class="top-films-badge badge">8.5</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle4<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Люси<span class="top-films-badge badge">8.2</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle5<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Выхода нет<span class="top-films-badge badge">8.0</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle6<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Стражи галактики<span class="top-films-badge badge">7.9</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle7<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Человек муравей<span class="top-films-badge badge">7.7</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle8<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Месть от кутюр<span class="top-films-badge badge">7.5</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle9<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Люди Икс<span class="top-films-badge badge">7.4</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle10<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Занесло<span class="top-films-badge badge">7.3</span></a>
             </li>
             <li class="top-films-item list-group-item">
-              <a href="#">FilmTitle11<span class="top-films-badge badge">9.1</span></a>
+              <a href="#">Дочь бога<span class="top-films-badge badge">7.2</span></a>
             </li>
           </ul>
         </div>
@@ -234,7 +351,70 @@
     </div>
   </div>
 
-  <footer></footer>
+  <footer class="footer">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="container">
+
+          <div class="row">
+            <div class="footer-head">
+            
+              <div class="footer-first col-md-3 col-xs-6">
+                  <h4>Lorem ipsum dolor sit.</h4>
+                  <ul>
+                    <li><a href="#">Lorem ipsum dolor.</a></li>
+                    <li><a href="#">Delectus, labore, incidunt.</a></li>
+                    <li><a href="#">Lorem ipsum  amet.</a></li>
+                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                  </ul>
+              </div>
+            
+              <div class="footer-second col-md-3 col-xs-6">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor.</a></li>
+                  <li><a href="#">Delectus, labore, incidunt.</a></li>
+                  <li><a href="#">Lorem ipsum  amet.</a></li>
+                  <li><a href="#">Lorem, ipsum dolor.</a></li>
+                  <li><a href="#">Delectus, labore, incidunt.</a></li>
+                </ul>
+              </div>
+            
+              <div class="footer-fird col-md-3 col-xs-6">
+              <h4>Lorem ipsum dolor sit.</h4>
+              <ul>
+                <li><a href="#">Lorem ipsum dolor.</a></li>
+                <li><a href="#">Delectus, labore, incidunt.</a></li>
+                <li><a href="#">Lorem ipsum  amet.</a></li>
+                <li><a href="#">Lorem, ipsum dolor.</a></li>
+              </ul>
+              </div>
+            
+              <div class="footer-forth col-md-3 col-xs-6">
+            <h4>Lorem ipsum dolor sit.</h4>
+            <ul>
+              <li><a href="#">Lorem ipsum dolor.</a></li>
+              <li><a href="#">Delectus, labore, incidunt.</a></li>
+              <li><a href="#">Lorem ipsum  amet.</a></li>
+              <li><a href="#">Lorem, ipsum dolor.</a></li>
+              <li><a href="#">Delectus, labore, incidunt.</a></li>
+            </ul>
+              </div>
+            </div>
+          </div>  
+
+          <div class="row">
+            <div class="footer-footer">
+              <div class="footer-fifth col-xs-12">
+                <strong><a href="https://fomenko.top/">Учебный шаблон Bootstrap v3.4.1. Разработка - Андрей Фоменко</a></strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="libs/jquery/dist/jquery.min.js"></script>
   <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
