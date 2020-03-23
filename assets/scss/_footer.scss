@@ -1,0 +1,33 @@
+.footer {
+
+  margin-top: $gap / 2;
+  
+  .container-fluid {
+    
+    background-color: $color-dark;
+    color : $color-light;
+    a {
+    color : $color-light;
+  }
+  h4 {
+    margin-top: $gap * 3.75;
+    text-align: left;
+    color : $color-light;
+  }
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style: none;
+    
+  }
+  }
+  .footer-head {
+    
+  }
+  .footer-footer {
+    margin-top: $gap * 1.5;
+    text-align: center;
+    margin-bottom: $gap * 5;
+  }
+}
