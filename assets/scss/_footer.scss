@@ -1,12 +1,14 @@
 .footer {
 
-  margin-top: $gap / 2;
+  margin-top: $gap / 1.25;
   
   .container-fluid {
     
     background-color: $color-dark;
-    color : $color-light;
     a {
+      color : darken($color-gray , 35%);
+    }
+    a:hover {
     color : $color-light;
   }
   h4 {
@@ -22,12 +24,12 @@
     
   }
   }
-  .footer-head {
-    
-  }
   .footer-footer {
-    margin-top: $gap * 1.5;
+    margin-top: $gap * 1.35;
     text-align: center;
     margin-bottom: $gap * 5;
+    a {
+      color : $color-light;
+    }
   }
 }

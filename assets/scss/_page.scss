@@ -1,5 +1,37 @@
+.main {
+  margin-bottom: $gap * 3;
+}
+.film-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: $gap  * 12.85;
+  padding-right: $gap * 12.85;
+  padding-bottom: $gap / 1.5;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+  p {
+    letter-spacing: rem;
+    font-size: $font-size * 1.2;
+  }
+  .badge {
+    font-size: 0.8em;
+    &:not(:last-child) {
+      margin-right: 3%;
+    }
+  }
+}
+
+//   &__well {
+//     border-top-left-radius: 0;
+//     border-top-right-radius: 0;
+//   }
+// }
 .film-send {
-  button {
+  position: relative;
+  // margin-top: $gap * 5.35;
+  .btn {
     float: right;
   }
 }

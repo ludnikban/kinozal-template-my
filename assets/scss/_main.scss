@@ -1,19 +1,11 @@
 .main {
-  margin-bottom: $gap * 4;
+  margin-bottom: $gap ;
 }
 
 .new-films,
 .top-week {
+  margin-bottom: -$gap;
 
-  margin-bottom: $gap * 4;
-  h1 {
-    margin-top: -$gap / 2;
-    margin-bottom: $gap * 3;
-  }
-  h2 {
-    margin-top: $gap;
-    margin-bottom: $gap * 3;
-  }
   .row {
     margin-right: -$gap / 2;
     margin-bottom: -$gap;
@@ -33,18 +25,11 @@
       width: 100%;
     }
 
-    .new-films-title {
-      margin: 0;
-      text-align: center;
-      font-size: 1rem;
-
-      @include text-shortener;
-    }
+    .new-films-title,
     .top-week-title {
       margin: 0;
       text-align: center;
       font-size: 1rem;
-
       @include text-shortener;
     }
 
@@ -67,22 +52,36 @@
 }
 
 .film-news {
-  h2 {
-  margin-bottom: $gap * 3;
-  }
-  .film-news-item {
+  margin-bottom: -$gap *2;
 
+  .film-news-item {
+    padding-bottom: $gap *1.25;
+    
     h3 {
-      margin-bottom: $gap;
-      text-align: left;
-      
+      margin-bottom: $gap / 1.5;
     }
-    p {
+
+    &__text {
       text-align: justify;
     }
+
     .btn {
       float: right;
     }
-    
+    .thumbnail {
+      transition: background-color 0.25s ease;
+    }
+    &:hover {
+      .thumbnail {
+        border-color: $color-accent;
+        background-color: lighten($color-accent, 15%);
+      }
+      h3 > a {  
+          color: $color-accent;
+      }
+      .btn-warning {
+        background-color: $color-accent;
+      }
+    }
   }
 }
