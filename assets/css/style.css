@@ -252,7 +252,7 @@ section {
 }
 
 .main {
-  margin-bottom: 45px;
+  margin-bottom: 60px;
 }
 
 .film-info {
@@ -264,16 +264,14 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 192.75px;
-  padding-right: 192.75px;
-  padding-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  padding-bottom: 10px;
+  font-size: 1.2em;
 }
 
 .film-info p {
   letter-spacing: rem;
-  font-size: 19.2px;
 }
 
 .film-info .badge {
@@ -429,40 +427,39 @@ section {
   -webkit-line-clamp: 2;
 }
 
-.footer {
-  margin-top: 12px;
-}
-
 .footer .container-fluid {
   background-color: #232323;
 }
 
-.footer .container-fluid a {
+.footer .container-fluid .footer-head {
+  margin-top: 45px;
+}
+
+.footer .container-fluid .footer-head a {
   color: #838383;
 }
 
-.footer .container-fluid a:hover {
+.footer .container-fluid .footer-head a:hover {
   color: #ffffff;
 }
 
-.footer .container-fluid h4 {
-  margin-top: 56.25px;
+.footer .container-fluid .footer-head h4 {
   text-align: left;
   color: #ffffff;
 }
 
-.footer .container-fluid ul {
+.footer .container-fluid .footer-head ul {
   padding-left: 0;
 }
 
-.footer .container-fluid li {
+.footer .container-fluid .footer-head li {
   list-style: none;
 }
 
 .footer .footer-footer {
   margin-top: 20.25px;
   text-align: center;
-  margin-bottom: 75px;
+  margin-bottom: 60px;
 }
 
 .footer .footer-footer a {
@@ -488,6 +485,26 @@ section {
   }
   .navbar-right li {
     margin: 5px 0 5px 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .film-info {
+    padding-left: 192.75px;
+    padding-right: 192.75px;
+  }
+}
+
+@media (max-width: 1199.8px) and (min-width: 992px) {
+  .film-info {
+    padding-left: 86.25px;
+    padding-right: 86.25px;
+  }
+}
+
+@media (max-width: 991.8px) and (min-width: 768px) {
+  .header {
+    margin-bottom: 45px;
   }
 }
 

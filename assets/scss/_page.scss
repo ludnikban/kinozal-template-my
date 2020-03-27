@@ -1,19 +1,28 @@
 .main {
-  margin-bottom: $gap * 3;
+  margin-bottom: $gap * 4;
 }
 .film-info {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-left: $gap  * 12.85;
-  padding-right: $gap * 12.85;
-  padding-bottom: $gap / 1.5;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-
+  padding-bottom: $gap / 1.5;
+  font-size: 1.2em;
+  
+  @include lg-min {
+    padding-left: $gap  * 12.85;
+    padding-right: $gap * 12.85;
+  }
+  
+  @include lg-md {
+    padding-left: $gap  * 5.75;
+    padding-right: $gap * 5.75;
+  }
+  
   p {
     letter-spacing: rem;
-    font-size: $font-size * 1.2;
+    // font-size: $font-size * 1.2;
   }
   .badge {
     font-size: 0.8em;
