@@ -14,23 +14,7 @@
     width: 100%;
   }
 }
-.site-search {
-  @include md-sm {
-    margin-bottom: $gap * 3;
-  }
-  @include sm-xs {
-    margin-top: -$gap;
-    margin-bottom: $gap * 3;
-  }
-}
-.user-login {
-  @include md-sm {
-    margin-bottom: $gap * 4;
-  }
-  @include sm-xs {
-    margin-bottom: $gap * 4;
-  }
-}
+
 .top-films {
   
   &-body {

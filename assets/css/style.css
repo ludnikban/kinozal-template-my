@@ -146,7 +146,15 @@ section {
 }
 
 .main {
-  margin-bottom: 15px;
+  margin-bottom: 60px;
+}
+
+.main .site-search {
+  margin: -15px 0 45px;
+}
+
+.main .user-login {
+  margin-bottom: 60px;
 }
 
 .new-films,
@@ -249,10 +257,6 @@ section {
 
 .film-news .film-news-item:hover .btn-warning {
   background-color: #df8a13;
-}
-
-.main {
-  margin-bottom: 60px;
 }
 
 .embed-responsive-item {
@@ -485,18 +489,6 @@ section {
   }
 }
 
-@media (max-width: 991.8px) and (min-width: 768px) {
-  .header {
-    margin-bottom: 45px;
-  }
-  .site-search {
-    margin-bottom: 45px;
-  }
-  .user-login {
-    margin-bottom: 60px;
-  }
-}
-
 @media (max-width: 767.8px) {
   .navbar-inverse .navbar-nav > li > a {
     text-align: center;
@@ -506,16 +498,6 @@ section {
   }
   .navbar-right {
     margin-top: 0;
-  }
-}
-
-@media (max-width: 767.8px) and (min-width: 576px) {
-  .site-search {
-    margin-top: -15px;
-    margin-bottom: 45px;
-  }
-  .user-login {
-    margin-bottom: 60px;
   }
 }
 
