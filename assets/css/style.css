@@ -264,22 +264,21 @@ section {
   border-top-right-radius: 4px;
 }
 
-.film-info {
+.film-video {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  padding-bottom: 18.75px;
   font-size: 1.2em;
 }
 
-.film-info p {
+.film-video p {
   letter-spacing: rem;
 }
 
-.film-info .badge {
+.film-video__badge {
   font-size: 0.8em;
 }
 
-.film-info .badge:not(:last-child) {
+.film-video__badge:not(:last-child) {
   margin-right: 3%;
 }
 
