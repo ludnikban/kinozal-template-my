@@ -265,21 +265,24 @@ section {
 }
 
 .film-video {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
   font-size: 1.2em;
 }
 
-.film-video p {
-  letter-spacing: rem;
+.film-video__well {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.film-video__intro {
+  white-space: nowrap;
+}
+
+.film-video__intro:not(:last-child) {
+  margin-right: 15px;
 }
 
 .film-video__badge {
   font-size: 0.8em;
-}
-
-.film-video__badge:not(:last-child) {
-  margin-right: 3%;
 }
 
 .film-send {

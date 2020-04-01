@@ -4,20 +4,24 @@
 }
 
 .film-video {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  // padding-bottom: $gap * 1.25; //18.75px
   font-size: 1.2em;
-  
-  p {
-    letter-spacing: rem;
+
+  &__well {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
-  &__badge {
-    font-size: 0.8em;
+
+  &__intro {
+    white-space: nowrap;
     &:not(:last-child) {
-      margin-right: 3%;
+      margin-right: $gap;
     }
   }
+
+  &__badge {
+    font-size: 0.8em;
+  }
+  
 }
 
 .film-send {
