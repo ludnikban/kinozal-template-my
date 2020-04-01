@@ -14,7 +14,8 @@
   &__intro {
     white-space: nowrap;
     &:not(:last-child) {
-      margin-right: $gap;
+      // margin-right: 25px;
+      margin-right: $gap * 1.675;
     }
   }
 
